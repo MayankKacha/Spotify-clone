@@ -2,7 +2,7 @@
 // documentation/web-playback-sdk/quick-start/#
 
 export const authEndpoint = "https://accounts.spotify.com/authorize";
-const redirectUri = "https://spotify-clone-mayank.netlify.app/player/";
+const redirectUri = "https://spotify-clone-five-mu.vercel.app/player/";
 const clientId = "ca184d79c55d4bb5a1b0bb47a1cd744a";
 
 // Scope are the operations user will be able to perform which they will see when they click on login and after auth they will see as a tab as "View your activity on spotify"
