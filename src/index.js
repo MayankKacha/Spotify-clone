@@ -3,11 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { DataLayer } from './DataLayer';
+import reducer, { initialState } from './reducer';
+import { BrowserRouter } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+     {/* using react-context-api */}
+     <BrowserRouter>
+      <DataLayer initialState={initialState} reducer={reducer}>
+        <App />
+      </DataLayer>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

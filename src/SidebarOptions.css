@@ -1,0 +1,45 @@
+.sidebarOption{
+    display: flex;
+    align-items: center;
+    color: grey;
+    height: 40px;
+    cursor: pointer;
+    transition: 200ms color ease-in;
+}
+
+.sidebarOption:hover{
+    color: white;
+}
+
+.sidebarOption__icon {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sidebarOption > p {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.sidebarOption > button {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.sidebarOption > a {
+    color: gray;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.sidebarOption>a:hover {
+    color: white;
+    transition: 200ms color ease-in;
+}
